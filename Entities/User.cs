@@ -1,8 +1,12 @@
-﻿namespace ShopOnlie.Api.Entities
+﻿// Representa um usuário no sistema
+namespace ShopOnline.Api.Entities
 {
     public class User
     {
-        public  int Id { get; set; }
+        // Identificador único do usuário
+        public int Id { get; set; }
+
+        // Nome de usuário
         public string UserName { get; set; }
     }
 }

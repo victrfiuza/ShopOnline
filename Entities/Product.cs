@@ -1,14 +1,18 @@
-﻿namespace ShopOnlie.Api.Entities
+﻿// Representa um produto disponível para compra
+namespace ShopOnline.Api.Entities
 {
     public class Product
     {
+        // Identificador único do produto
         public int Id { get; set; }
-        public string Name { get; set; }   
-        public string Description { get; set; } 
-        public string ImageUrl { get; set; }    
-        public decimal price { get; set; }
-        public int Qty { get; set; }
-        public int CategoryId { get; set; }
 
+        // Nome do produto
+        public string Name { get; set; }
+
+        // Preço do produto
+        public decimal Price { get; set; }
+
+        // ID da categoria à qual o produto pertence
+        public int CategoryId { get; set; }
     }
 }

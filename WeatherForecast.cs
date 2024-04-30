@@ -1,4 +1,4 @@
-namespace ShopOnlie.Api
+namespace ShopOnline.Api
 {
     public class WeatherForecast
     {
